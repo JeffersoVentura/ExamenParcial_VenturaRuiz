@@ -12,4 +12,17 @@ public class Asiento {
     private int numero;
     private boolean estado;
     private float precio;
+
+    public Asiento(int numero, float precio) {
+        this.numero = numero;
+        this.precio = precio;
+    }
+    
+    public void reservar(){
+        
+    }
+    
+    public void cancelar (){
+        
+    }
 }

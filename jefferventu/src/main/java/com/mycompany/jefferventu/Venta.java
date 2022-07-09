@@ -14,4 +14,16 @@ public class Venta {
     private Date fecha;
     private float montoTotal;
     private int numAsientos;
+    
+    public void agregarAsiento (Asiento asiento){//agrega la relación con asientoo
+        
+    }
+    
+    public void setEmpleado (Empleado empleado){
+        
+    }
+    
+    public void setCliente (Cliente cliente){
+        
+    }
 }
