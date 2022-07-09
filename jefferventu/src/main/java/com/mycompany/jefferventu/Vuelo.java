@@ -12,6 +12,7 @@ public class Vuelo {
     private int horaLlegada;
     private Date fechaSalida;
     private String destino;
+    private Asiento asiento;
 
     public Vuelo(int numero, float precio, int numAsientos, int horaSalida, int horaLlegada, Date fecha, String destino) {
         this.numero = numero;
@@ -20,12 +21,23 @@ public class Vuelo {
         this.destino = destino;
     }
     
-    //agregar asientosLibres con array
+    public void asientosLibres (int asiento[]){
+        for (int i = 0 ; i < numero ; i++){
+            
+        }
+    }
     
-    public void buscarAsiento (int asiento){
+    public void buscarAsiento (Asiento asiento){
         
     }
     
+    public void reporteDeAsientosVendidosOrdenadosNombre(){
+        
+    }
+    
+    public void reporteDeAsientosVendidosOrdenadosNro(){
+        
+    }
     //agregar reportedeasientosvendidosordenadosnombre
     
 }

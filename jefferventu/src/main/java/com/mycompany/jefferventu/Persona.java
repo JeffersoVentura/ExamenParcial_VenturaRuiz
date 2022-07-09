@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.jefferventu;
 
 /**
@@ -9,8 +5,8 @@ package com.mycompany.jefferventu;
  * @author jvrui
  */
 public class Persona {
-    protected String dni;
-    protected String nombre;
+    private String dni;
+    private String nombre;
 
     public Persona(){
     }
@@ -36,5 +32,8 @@ public class Persona {
         this.nombre = nombre;
     }
     
+    public void mostrarDatos (){
+        System.out.println("DNI: " + dni + "\nNombre: " + nombre);
+    }
     
 }

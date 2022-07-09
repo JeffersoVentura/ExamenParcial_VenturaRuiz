@@ -14,16 +14,20 @@ public class Venta {
     private Date fecha;
     private float montoTotal;
     private int numAsientos;
-    
-    public void agregarAsiento (Asiento asiento){
+    private Asiento Asiento;
+    private Empleado Empleado;
+    private Cliente Cliente;
         
+    public void agregarAsiento (Asiento asiento){
+        this.Asiento = asiento;
+        System.out.println("");
     }
     
     public void setEmpleado (Empleado empleado){
-        
+        this.Empleado = empleado;
     }
     
     public void setCliente (Cliente cliente){
-        
+        this.Cliente = cliente;
     }
 }

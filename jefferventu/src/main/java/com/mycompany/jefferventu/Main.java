@@ -7,7 +7,9 @@ package com.mycompany.jefferventu;
 public class Main {
 
     public static void main(String[] args) {
-        // TODO code application logic here
+        Persona dato1 = new Persona("78945632","Jefferson");
+        
+        dato1.mostrarDatos();
     }
     
 }
