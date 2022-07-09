@@ -22,6 +22,7 @@ public class Vuelo {
     }
     
     public void asientosLibres (int asiento[]){
+        
         for (int i = 0 ; i < numero ; i++){
             
         }

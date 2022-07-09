@@ -33,7 +33,7 @@ public class Persona {
     }
     
     public void mostrarDatos (){
-        System.out.println("DNI: " + dni + "\nNombre: " + nombre);
+        System.out.println("\nNombre: " + nombre + "\nDNI: " + dni );
     }
     
 }
