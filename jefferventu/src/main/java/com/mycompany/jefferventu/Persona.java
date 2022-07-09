@@ -9,9 +9,12 @@ package com.mycompany.jefferventu;
  * @author jvrui
  */
 public class Persona {
-    private String dni;
-    private String nombre;
+    protected String dni;
+    protected String nombre;
 
+    public Persona(){
+    }
+    
     public Persona(String dni, String nombre) {
         this.dni = dni;
         this.nombre = nombre;

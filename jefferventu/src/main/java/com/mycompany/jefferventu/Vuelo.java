@@ -22,8 +22,10 @@ public class Vuelo {
     
     //agregar asientosLibres con array
     
-    public 
+    public void buscarAsiento (int asiento){
+        
+    }
     
-    
+    //agregar reportedeasientosvendidosordenadosnombre
     
 }

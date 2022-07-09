@@ -15,7 +15,7 @@ public class Venta {
     private float montoTotal;
     private int numAsientos;
     
-    public void agregarAsiento (Asiento asiento){//agrega la relación con asientoo
+    public void agregarAsiento (Asiento asiento){
         
     }
     

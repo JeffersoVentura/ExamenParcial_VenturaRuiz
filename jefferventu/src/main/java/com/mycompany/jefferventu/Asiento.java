@@ -19,10 +19,19 @@ public class Asiento {
     }
     
     public void reservar(){
-        
+        if(estado == true){
+            System.out.println("Asiento libre, seleccione su asiento: \n");
+            numero = 10;
+        }
+        else{
+            System.out.println("Asiento no disponible");
+        }
     }
     
     public void cancelar (){
-        
+        if(numero == 10){
+            System.out.println("¿Desea cancelar?");
+            estado = false;
+        }
     }
 }
